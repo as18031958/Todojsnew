@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧮📜Todojs📜🧮</title> 
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="./icons8-todo-list.gif" type="image/x-icon">
+    <!-- Google font for quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Cdn Link For different icon Add -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style sheet for csslink -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="list">
+                <h1>Task</h1>
+                <span class="list1">
+                    <h2>Lists</h2>
+                </span>
+            </div>
+            <nav onclick="popup1()">
+                <button class="btn"><i class="fa-solid fa-circle-plus fa-flip fa-2xl btn1"
+                        style="color: #1F5129;"></i></button>
+                <h2>Add Items</h2>
+            </nav>
+        </header>
+        <!-- for back button -->
+        <nav class="upparbar">
+            <div>
+                <h5 class="backbtn"><i class="fa-sharp fa-solid fa-circle-left fa-shake fa-2xl back"
+                        style="color: #F73302;"></i></h5>
+            </div>
+            <div class="Text">
+            </div>
+        </nav>
+        <section class="sec">
+            <div class="noText">
+                <h2>No Items In The List</h2>
+            </div>
+        </section>
+    </div>
+    <div class="addlist">
+        <h3>Add New List</h3>
+        <input id="Input" name="addlist" type="text" placeholder="Please add some text" maxlength="15" required>
+        <div class="btnchange">
+            <button class="Addbtn" onclick="popup2()"><i class="fa-solid fa-square-plus fa-fade fa-2xl"
+                    style="color: #20E212;"></i></button>
+            <button class="Deletebtn"><i class="fa-solid fa-square-minus fa-fade fa-2xl"
+                    style="color: #D82613;"></i></button>
+        </div>
+    </div>
+    <div class="addItem">
+        <h3>Add List Items</h3>
+        <input id="InputText" name="addItem" type="text" placeholder="Please add some text" required>
+        <div class="btnchange2">
+            <button class="ItemBtn"><i class="fa-solid fa-square-plus fa-fade fa-2xl"
+                    style="color: #20E212;"></i></button>
+            <button class="Deletebtn2"><i class="fa-solid fa-square-minus fa-fade fa-2xl"
+                    style="color: #D82613;"></i></button>
+        </div>
+    </div>
+        <script src="./javascript.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
